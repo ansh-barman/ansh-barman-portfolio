@@ -311,22 +311,22 @@ body{
 }
 
 #card1{
-    background-image: url(/Assets/asset\ 38.png);
+    background-image: url(./Assets/asset\ 38.png);
     background-color: #fff;
 } 
 
 #card2{
-    background-image: url(/Assets/asset\ 39.png);
+    background-image: url(./Assets/asset\ 39.png);
     background-color: #fff;
 } 
 
 #card3{
-    background-image: url(/Assets/asset\ 37.png);
+    background-image: url(./Assets/asset\ 37.png);
     background-color: #fff;
 } 
 
 #card4{
-    background-image: url(/Assets/asset\ 36.png);
+    background-image: url(./Assets/asset\ 36.png);
     background-color: #fff;
 } 
 
