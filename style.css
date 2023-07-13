@@ -103,6 +103,10 @@ body{
     font-weight: 500;
 }
 
+#nav-items a:hover{
+    color: #0572ef;
+}
+
 #nav-items a{
     text-decoration: none;
 }
