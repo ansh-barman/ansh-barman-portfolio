@@ -568,8 +568,8 @@ body::-webkit-scrollbar-thumb:hover {
         font-size: 8px;
     }
     #page1 img{
-        width: 50%;
-        height: 50%;
+        width: 60%;
+        height: 60%;
         border-radius: 5px;
         filter: drop-shadow(8px 8px #00000096);
     }
