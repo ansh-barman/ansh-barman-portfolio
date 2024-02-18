@@ -21,18 +21,25 @@
             <li><a href="#page4">Experience</a></li>
             <li><a href="#page5">Contact</a></li>
         </ul>
+        <!-- <input type="checkbox" id="check">
+        <label for="check">
+            <i class="fas fa-bars" id="btn"></i>
+            <i class="fas fa-times" id="cancel"></i>
+        </label> -->
     </div>
     <div id="main">
-        <div id="page1">
-            <div id="hero-text">
-                <h1 id="welcome_text">おはよう</h1>
-                <button onclick="changeText()" class="primary-button translate-btn">Translate</button>
-                <p>Hey! a bit strange innit? So About me huh, I'm basically a nerd. I guess you can call me that, as if
-                    anything is related to tech or cars I'm the go to person for everyone close to me. When it comes to
-                    cars, I am someone who loves cars so much that I live and die cars...</p><br>
-                    <a href="about.html" class="primary-button know-more-btn">Know More</a>
+        <div class="container">
+            <div id="page1">
+                <img src="./Assets/Ansh Barman.png">
+                <div id="hero-text">
+                    <h1 id="welcome_text">おはよう</h1>
+                    <button onclick="changeText()" class="primary-button translate-btn">Translate</button>
+                    <p>Hey! a bit strange innit? So About me huh, I'm basically a nerd. I guess you can call me that, as if
+                        anything is related to tech or cars I'm the go to...</p><br>
+                        <a href="about.html" class="primary-button know-more-btn">Know More</a>
+                </div>
+                
             </div>
-            <img src="./Assets/Ansh Barman.png">
         </div>
         <div id="page2">
             <div id="background-img">
@@ -79,7 +86,7 @@
             <div id="project-cards">
                 <div class="card">
                     <img src="./Assets/Clone.png" alt="project1" style="width:100%">
-                    <div class="container">
+                    <div class="text-container">
                         <h4><b>Netflix Clone</b></h4>
                         <p>A movieDB platform that provides users with a similar
                             experience to the popular entertainment service, Netflix.</p>
@@ -87,7 +94,7 @@
                 </div>
                 <div class="card">
                     <img src="./Assets/Copy of FEEDBACK (2).png" alt="project2" style="width:100%">
-                    <div class="container">
+                    <div class="text-container">
                         <h4><b>Ardian IDE</b></h4>
                         <p>A student-friendly compiler designed to simplify
                             programming, with AI integration for error correction and
@@ -96,7 +103,7 @@
                 </div>
                 <div class="card">
                     <img src="./Assets/banner.png" alt="project3" style="width:100%">
-                    <div class="container">
+                    <div class="text-container">
                         <h4><b>TorqHeads</b></h4>
                         <p>It is a platform for like minded individuals to connect and
                             discuss/stay updated on the topic of latest trends and changes
@@ -193,7 +200,7 @@
 
         <div id="footer">
             <footer>
-                <div class="container flex footer-container">
+                <div class="bottom-container flex footer-container">
                     <div class="grills">
                         <a href="#" class="company-logo-footer">
                             <img src="./Assets/AB.png" alt="company-logo-footer">
@@ -221,7 +228,7 @@
             </footer>
 
             <section class="subfooter">
-                <div class="container flex subfooter-container">
+                <div class="bottom-container flex subfooter-container">
                     <a class="hover-link" href="#">© 2023 by Ansh Barman</a>
                     <a class="hover-link" href="#"> &nbsp;•&nbsp;</a>
                     <a class="hover-link" href="#">barmanansh99@gmail.com</a>
@@ -237,8 +244,9 @@
 
     </div>
 
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="https://kit.fontawesome.com/279d0bae73.js" crossorigin="anonymous"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <!-- <script src="https://kit.fontawesome.com/279d0bae73.js" crossorigin="anonymous"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
         integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
